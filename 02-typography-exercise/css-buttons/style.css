@@ -4,8 +4,8 @@ html {
     font-size: 16px;
 }
 
-body, button, a {
-    font: inherit;
+button, a {
+    font-family: sans-serif;
 }
 
 body {
