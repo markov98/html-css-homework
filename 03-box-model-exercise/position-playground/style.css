@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.viewport {
+    display: block;
+    height: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.viewport:nth-child(1) {
+    background: linear-gradient(90deg, rgba(133, 128, 255, 1) 0%, rgba(9, 121, 119, 1) 47%, rgba(138, 255, 148, 1) 100%);
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(90deg, rgba(219, 128, 255, 1) 0%, rgba(255, 239, 138, 1) 100%);
+}
+
+.card {
+    max-width: 15%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 13px;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+}
+
+.card::before {
+    display: block;
+    content: '';
+    position: absolute;
+    inset: 0;
+    box-shadow: 0 0 5em 0.5em rgb(0, 0, 0, 0.7) inset;
+}
+
+.card svg {
+    fill: white;
+    display: block;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    width: 2em;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
