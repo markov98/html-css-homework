@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.card {
+    max-width: 400px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1em 0.3em black;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div:nth-child(2) {
+    margin-inline: 4px;
+}
+
+a {
+    display: block;
+    width:fit-content;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin: 0 0 5px auto;
+}
