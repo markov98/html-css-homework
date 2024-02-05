@@ -1,0 +1,15 @@
+.conteiner {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 15vw;
+    height: 35rem;
+}
+
+span {
+    border: 1px solid black;
+    padding: 2px 10px;
+}
