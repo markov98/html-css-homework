@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+span {
+    padding-top: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.container, section {
+    display: flex;
+}
+
+.week {
+    flex-wrap: wrap;
+    height: 700px;
+    width: 700px;
+}
+
+.workweek-title, .weekend-title {
+    width: 100%;
+}
+
+.weekday, .weekend-day, .node {
+    flex: 1;
+}
+
+.node {
+    text-transform: uppercase;
+}
+
+.nodes {
+    flex-direction: column;
+    width: 350px;
+    height: 700px;
+}
