@@ -1,0 +1,38 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 10px darkgray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.masonry {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 1500px;
+    flex-wrap: wrap;
+}
