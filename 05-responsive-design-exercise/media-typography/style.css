@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1250px;
+    margin: auto;
+    background-color: lightgray;
+}
+
+header {
+    margin-top: 12px;
+    display: flex;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+}
+
+img {
+    padding: 10px;
+    border: 8px solid black;
+}
+
+article {
+    display: block;
+    margin-bottom: 23px;
+}
+
+blockquote {
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-left: 5px solid darkslategray;
+    padding-left: 10px;
+    width: 50%;
+    float: right;
+}
+
+.Author {
+    text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 12px;
+    }
+
+    img {
+        display: block;
+        float: none;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .firstImg {
+        float: right;
+        margin-left: 8px;
+    }
+    
+    .secondImg {
+        float: left;
+        margin-right: 8px;
+    }
+    
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    body {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1801px) {
+    body {
+        font-size: 23px;
+    }
+}
