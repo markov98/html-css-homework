@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 #nav-toggle {
     display: none;
 }
@@ -98,6 +102,25 @@ section h2 {
     border-radius: 50%;
 }
 
+.newsletter {
+    background-color: purple;
+    padding-block: 2em;
+}
+
+.newsletter h2 {
+    color: white;
+}
+
+.newsletter form {
+    margin: auto;
+    display: block;
+    width: max-content;
+}
+
+.newsletter form input {
+    width: 40em;
+}
+
 @media (max-width: 1300px) {
 
     .title-card {
@@ -146,10 +169,18 @@ section h2 {
     .team-list li {
         width: 50%;
     }
+
+    .newsletter form input {
+        width: 25em;
+    }
 }
 
 @media (max-width: 600px) {
     body {
         font-size: 0.9em;
+    }
+
+    .newsletter form input {
+        width: 15em;
     }
 }
