@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+.timeline {
+    border: 0.3em solid darkgrey;
+    position: relative;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 0.5em;
+    background-color: darkgray;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+article {
+    padding: 1em 4em;
+    position: relative;
+    width: 50%;
+}
+
+article::after {
+    content: '';
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    right: -18px;
+    background-color: orange;
+    border: 0.1em solid darkgrey;
+    top: 2em;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.right::after {
+    background-color: green;
+    left: -18px;
+}
+
+.right {
+    left: 50%;
+}
+
+@media (max-width: 600px) {
+    .timeline::after {
+        left: 1em;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    .left::after, .right::after {
+        left: 0;
+    }
+
+
+    .right {
+        left: 0;
+    }
+}
