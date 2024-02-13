@@ -1,0 +1,27 @@
+
+body {
+    background-color: darkgrey;
+}
+
+td {
+    border: 0.1em solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90vw;
+    margin: auto;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
