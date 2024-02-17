@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'PT Serif', serif;
+}
+
+header {
+    padding: 35px;
+    height: 935px;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    margin-inline: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-logo {
+    width: 100px;
+}
+
+
+.lower-header {
+    width: 750px;
+    margin-left: 185px;
+}
+
+.lower-header h1 {
+    font-weight: 300;
+    font-size: 64px;
+}
+
+.lower-header p {
+    font-size: 24px;
+}
