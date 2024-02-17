@@ -36,7 +36,6 @@ header {
     width: 100px;
 }
 
-
 .lower-header {
     width: 750px;
     margin-left: 185px;
@@ -49,4 +48,32 @@ header {
 
 .lower-header p {
     font-size: 24px;
+}
+
+.section1 {
+    display: flex;
+    padding: 150px 205px 105px 205px;
+    gap:10px;
+    justify-content: center;
+}
+
+.section1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section1 div h2 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.section1 div a {
+    color: #B0825C;
+    padding: 16px;
+    width: max-content;
+    border: 2px solid #B0825C;
+    text-decoration: none;
+    font-weight: bold;
 }
