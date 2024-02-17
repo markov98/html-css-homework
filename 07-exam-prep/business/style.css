@@ -78,7 +78,7 @@ header {
 }
 
 hr {
-    color: gray;
+    border-color: darkgray;
 }
 
 .section2 {
@@ -115,4 +115,44 @@ hr {
     background-color: lightgray;
     border-radius: 50%;
     padding: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #171720;
+    color: white;
+}
+
+.upper-footer, .lower-footer {
+    padding-inline: 205px;
+}
+
+.upper-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.upper-footer h3 {
+    margin-bottom: 20px;
+}
+
+.upper-footer p {
+    color: gray;
+    margin: 0;
+}
+
+.upper-footer a {
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.lower-footer {
+    color: gray;
 }
